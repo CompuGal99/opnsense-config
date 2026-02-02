@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>cicada</theme>
-  <sysctl version="1.0.1">
+  <sysctl version="1.0.2" persisted_at="1770006544.90" description="System Tunables">
     <item uuid="344ab4dc-c8e3-4760-8d15-3a7bd1fb74a2">
       <tunable>vfs.read_max</tunable>
       <value/>
@@ -1332,9 +1332,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1764901796.30</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1770006546.30</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2255,6 +2255,15 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
+    <Hostwatch version="1.0.0" persisted_at="1770006546.27" description="Host discovery">
+      <general>
+        <enabled>1</enabled>
+        <promisc>0</promisc>
+        <verbose>0</verbose>
+        <skip_nets/>
+        <interface/>
+      </general>
+    </Hostwatch>
   </OPNsense>
   <hasync version="1.0.2">
     <disablepreempt>0</disablepreempt>
