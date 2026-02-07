@@ -569,6 +569,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>ce:a1:e3:3d:17:d7</mac>
+        <ipaddr>192.168.4.7</ipaddr>
+        <hostname>CompuLaptop99</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>20:0b:cf:96:34:1f</mac>
         <ipaddr>192.168.4.8</ipaddr>
         <hostname>nswitch</hostname>
@@ -1332,8 +1340,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.39</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1770506608.92</time>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1770506662.23</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
