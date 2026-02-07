@@ -554,7 +554,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <item/>
       </numberoptions>
       <range>
-        <from>192.168.4.10</from>
+        <from>192.168.4.30</from>
         <to>192.168.4.254</to>
       </range>
       <winsserver/>
@@ -576,7 +576,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
-      <pool/>
     </opt1>
     <opt4>
       <enable>1</enable>
@@ -1332,9 +1331,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1770006546.30</time>
+    <username>alexg@192.168.4.39</username>
+    <description>/services_dhcp.php made changes</description>
+    <time>1770506544.00</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
