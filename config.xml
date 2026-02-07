@@ -437,7 +437,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <item/>
       </numberoptions>
       <range>
-        <from>192.168.1.10</from>
+        <from>192.168.1.30</from>
         <to>192.168.1.245</to>
       </range>
       <winsserver/>
@@ -1333,7 +1333,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.39</username>
     <description>/services_dhcp.php made changes</description>
-    <time>1770506544.00</time>
+    <time>1770506608.92</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
