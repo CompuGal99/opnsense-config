@@ -1340,8 +1340,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/upload_hosts made changes</description>
-    <time>1774761828.60</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1774761833.59</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2462,7 +2462,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1774761828.59" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1774761833.59" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
