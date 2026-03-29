@@ -1339,9 +1339,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <description>/api/trust/cert/del/d9bab8cb-b6f6-446e-8f5d-f48952b3ce81 made changes</description>
-    <time>1773811820.08</time>
+    <username>alexg@192.168.4.7</username>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1774760494.89</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2439,7 +2439,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1756165554.01">
+  <dnsmasq version="1.0.8" persisted_at="1774760494.89" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2447,14 +2447,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <strict_order>0</strict_order>
     <domain_needed>0</domain_needed>
     <no_private_reverse>0</no_private_reverse>
-    <no_resolv>0</no_resolv>
+    <no_resolv>1</no_resolv>
     <log_queries>0</log_queries>
     <no_hosts>0</no_hosts>
     <strictbind>0</strictbind>
     <dnssec>0</dnssec>
     <regdhcpdomain/>
-    <interface/>
-    <port/>
+    <interface>opt2,lan,opt4,opt1</interface>
+    <port>53053</port>
     <dns_forward_max/>
     <cache_size/>
     <local_ttl/>
@@ -2472,6 +2472,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <reply_delay/>
       <enable_ra>0</enable_ra>
       <nosync>0</nosync>
+      <log_dhcp>0</log_dhcp>
+      <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
   </dnsmasq>
