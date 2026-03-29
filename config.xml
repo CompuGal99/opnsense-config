@@ -526,7 +526,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       </staticmap>
     </lan>
     <opt2>
-      <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
         <item/>
@@ -1340,8 +1339,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1774761833.59</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1774761888.29</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
