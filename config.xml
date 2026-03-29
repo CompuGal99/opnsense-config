@@ -420,7 +420,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </interfaces>
   <dhcpd>
     <lan>
-      <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <ddnsupdate>1</ddnsupdate>
       <tftp>192.168.1.3</tftp>
@@ -1340,7 +1339,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.7</username>
     <description>/services_dhcp.php made changes</description>
-    <time>1774761888.29</time>
+    <time>1774761893.76</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
