@@ -1340,8 +1340,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/unbound/settings/addForward/ made changes</description>
-    <time>1774761622.71</time>
+    <description>/api/dnsmasq/settings/upload_hosts made changes</description>
+    <time>1774761799.85</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2462,7 +2462,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1774760883.96" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1774761799.85" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2499,6 +2499,51 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
+    <hosts uuid="e0e7440a-4346-49c0-b43f-beca99358be0">
+      <host>eero</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.4.2</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>64:c2:69:b9:34:cd</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="06f533b1-9f82-4af6-9f6f-b0f6d28dba8a">
+      <host>CompuLaptop99</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.4.7</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>ce:a1:e3:3d:17:d7</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="e14dc07e-0118-4c3f-834b-ea85d8d95a96">
+      <host>nswitch</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.4.8</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>20:0b:cf:96:34:1f</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
     <dhcp_ranges uuid="7b8c3c6a-3919-4c39-b555-0fb8ce15cdd8">
       <interface>opt2</interface>
       <set_tag/>
