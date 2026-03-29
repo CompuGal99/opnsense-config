@@ -1341,7 +1341,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.7</username>
     <description>/api/unbound/settings/addForward/ made changes</description>
-    <time>1774761238.86</time>
+    <time>1774761622.71</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1985,7 +1985,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.13" persisted_at="1774761238.86" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1774761622.71" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2065,6 +2065,17 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
           <forward_tcp_upstream>0</forward_tcp_upstream>
           <forward_first>0</forward_first>
           <description>Resolve Local Network Hosts</description>
+        </dot>
+        <dot uuid="7fba5924-0fff-4e65-a238-5270a250de4a">
+          <enabled>1</enabled>
+          <type>forward</type>
+          <domain>168.192.in-addr.arpa</domain>
+          <server>127.0.0.1</server>
+          <port>53053</port>
+          <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
+          <description>Reverse DNS lookup of LAN</description>
         </dot>
       </dots>
       <hosts>
