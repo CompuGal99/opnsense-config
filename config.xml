@@ -1340,8 +1340,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1774760883.96</time>
+    <description>/api/unbound/settings/addForward/ made changes</description>
+    <time>1774761238.86</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1985,7 +1985,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.13" persisted_at="1773810552.37" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1774761238.86" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2054,7 +2054,19 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <forwarding>
         <enabled>1</enabled>
       </forwarding>
-      <dots/>
+      <dots>
+        <dot uuid="9e5032b9-3bad-4d78-a7ce-c2851bf2c92f">
+          <enabled>1</enabled>
+          <type>forward</type>
+          <domain>int.compuguy.dev</domain>
+          <server>127.0.0.1</server>
+          <port>53053</port>
+          <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
+          <description>Resolve Local Network Hosts</description>
+        </dot>
+      </dots>
       <hosts>
         <host uuid="ff6705ce-c70b-4527-a98d-397e99d33a77">
           <enabled>1</enabled>
