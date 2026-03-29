@@ -1341,7 +1341,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.7</username>
     <description>/api/dnsmasq/settings/upload_hosts made changes</description>
-    <time>1774761799.85</time>
+    <time>1774761810.71</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2462,7 +2462,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1774761799.85" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1774761810.71" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2537,6 +2537,21 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <cnames/>
       <client_id/>
       <hwaddr>20:0b:cf:96:34:1f</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="932447c8-88e7-4bce-b204-e59267a8c9ba">
+      <host>publicproxy</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.7.2</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:cf:e7:88</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
