@@ -1341,7 +1341,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.7</username>
     <description>/api/dnsmasq/settings/add_range/ made changes</description>
-    <time>1774760693.38</time>
+    <time>1774760757.58</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2439,7 +2439,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1774760693.38" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1774760757.58" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2495,6 +2495,26 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <ra_interval/>
       <ra_router_lifetime/>
       <description>IPMI Hardware Management Network</description>
+    </dhcp_ranges>
+    <dhcp_ranges uuid="f00ce0d4-7a51-43a9-95b2-16847c34d8b5">
+      <interface>lan</interface>
+      <set_tag/>
+      <start_addr>192.168.1.30</start_addr>
+      <end_addr>192.168.1.245</end_addr>
+      <subnet_mask/>
+      <constructor/>
+      <mode/>
+      <prefix_len/>
+      <lease_time/>
+      <domain_type>range</domain_type>
+      <domain/>
+      <nosync>0</nosync>
+      <ra_mode/>
+      <ra_priority/>
+      <ra_mtu/>
+      <ra_interval/>
+      <ra_router_lifetime/>
+      <description>Wired LAN, Wires Only</description>
     </dhcp_ranges>
   </dnsmasq>
 </opnsense>
