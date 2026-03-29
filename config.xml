@@ -1336,8 +1336,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1774761905.71</time>
+    <description>/services_dhcpv6.php made changes</description>
+    <time>1774761911.69</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2351,7 +2351,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <dhcpdv6>
     <opt1>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <enable>1</enable>
       <range>
         <from>fd00:1701:4747::4:f000</from>
         <to>fd00:1701:4747::4:ffff</to>
