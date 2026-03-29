@@ -1340,8 +1340,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1774760494.89</time>
+    <description>/api/dnsmasq/settings/add_range/ made changes</description>
+    <time>1774760693.38</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2439,7 +2439,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1774760494.89" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1774760693.38" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2476,5 +2476,25 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
+    <dhcp_ranges uuid="7b8c3c6a-3919-4c39-b555-0fb8ce15cdd8">
+      <interface>opt2</interface>
+      <set_tag/>
+      <start_addr>192.168.254.10</start_addr>
+      <end_addr>192.168.254.254</end_addr>
+      <subnet_mask/>
+      <constructor/>
+      <mode/>
+      <prefix_len/>
+      <lease_time/>
+      <domain_type>range</domain_type>
+      <domain/>
+      <nosync>0</nosync>
+      <ra_mode/>
+      <ra_priority/>
+      <ra_mtu/>
+      <ra_interval/>
+      <ra_router_lifetime/>
+      <description>IPMI Hardware Management Network</description>
+    </dhcp_ranges>
   </dnsmasq>
 </opnsense>
