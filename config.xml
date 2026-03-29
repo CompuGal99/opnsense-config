@@ -1341,7 +1341,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.7</username>
     <description>/api/dnsmasq/settings/add_range/ made changes</description>
-    <time>1774760811.09</time>
+    <time>1774760868.17</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2439,7 +2439,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1774760811.09" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1774760868.17" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2535,6 +2535,26 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <ra_interval/>
       <ra_router_lifetime/>
       <description>Public Proxy VLAN</description>
+    </dhcp_ranges>
+    <dhcp_ranges uuid="d35cfade-6c17-4d42-9eb9-696553d05488">
+      <interface>opt1</interface>
+      <set_tag/>
+      <start_addr>192.168.4.30</start_addr>
+      <end_addr>192.168.4.254</end_addr>
+      <subnet_mask/>
+      <constructor/>
+      <mode/>
+      <prefix_len/>
+      <lease_time/>
+      <domain_type>range</domain_type>
+      <domain/>
+      <nosync>0</nosync>
+      <ra_mode/>
+      <ra_priority/>
+      <ra_mtu/>
+      <ra_interval/>
+      <ra_router_lifetime/>
+      <description>Wireless Network - CompuWifi99</description>
     </dhcp_ranges>
   </dnsmasq>
 </opnsense>
