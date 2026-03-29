@@ -1340,8 +1340,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/add_range/ made changes</description>
-    <time>1774760868.17</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1774760883.96</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2439,7 +2439,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1774760868.17" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1774760883.96" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
