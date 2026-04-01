@@ -1389,8 +1389,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/firewall/filter/del_rule/506a48ef-d0f0-4fc4-b3d2-dd177e8c0586 made changes</description>
-    <time>1775011866.55</time>
+    <description>/api/firewall/filter/del_rule/371ac510-71ed-41d8-a819-05d6028cb435 made changes</description>
+    <time>1775011866.59</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1675,7 +1675,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1775011866.55" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1775011866.59" description="Firewall rules (new)">
         <rules>
           <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
             <enabled>1</enabled>
@@ -1732,62 +1732,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <shaper1/>
             <shaper2/>
             <description>Default allow LAN to any rule</description>
-          </rule>
-          <rule uuid="371ac510-71ed-41d8-a819-05d6028cb435">
-            <enabled>1</enabled>
-            <statetype>keep</statetype>
-            <state-policy/>
-            <sequence>161</sequence>
-            <action>pass</action>
-            <quick>1</quick>
-            <interfacenot>0</interfacenot>
-            <interface>opt1</interface>
-            <direction>in</direction>
-            <ipprotocol>inet</ipprotocol>
-            <protocol>any</protocol>
-            <icmptype/>
-            <icmp6type/>
-            <source_net>opt1</source_net>
-            <source_not>0</source_not>
-            <source_port/>
-            <destination_net>any</destination_net>
-            <destination_not>0</destination_not>
-            <destination_port/>
-            <divert-to/>
-            <gateway/>
-            <replyto/>
-            <disablereplyto>0</disablereplyto>
-            <log>1</log>
-            <allowopts>0</allowopts>
-            <nosync>0</nosync>
-            <nopfsync>0</nopfsync>
-            <statetimeout/>
-            <udp-first/>
-            <udp-multiple/>
-            <udp-single/>
-            <max-src-nodes/>
-            <max-src-states/>
-            <max-src-conn/>
-            <max/>
-            <max-src-conn-rate/>
-            <max-src-conn-rates/>
-            <overload/>
-            <adaptivestart/>
-            <adaptiveend/>
-            <prio/>
-            <set-prio/>
-            <set-prio-low/>
-            <tag/>
-            <tagged/>
-            <tcpflags1/>
-            <tcpflags2/>
-            <tcpflags_any>0</tcpflags_any>
-            <categories/>
-            <sched/>
-            <tos/>
-            <shaper1/>
-            <shaper2/>
-            <description>Default allow Wifi to any rule</description>
           </rule>
           <rule uuid="b49eef26-9a21-48ef-b6ef-32a2bdcd3fcd">
             <enabled>1</enabled>
