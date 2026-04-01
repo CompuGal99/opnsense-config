@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/firewall/filter/set_rule/4afcd541-9e71-4ee3-98ed-fa4550aecc91 made changes</description>
-    <time>1775012119.10</time>
+    <description>/api/firewall/filter/del_rule/66d6f63a-c5bd-4c2a-b5bf-6ace371860fb made changes</description>
+    <time>1775012177.59</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1178,7 +1178,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1775012119.10" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1775012177.59" description="Firewall rules (new)">
         <rules>
           <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
             <enabled>1</enabled>
@@ -1627,62 +1627,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <shaper1/>
             <shaper2/>
             <description>Syncthing Inbound Rule</description>
-          </rule>
-          <rule uuid="66d6f63a-c5bd-4c2a-b5bf-6ace371860fb">
-            <enabled>0</enabled>
-            <statetype>keep</statetype>
-            <state-policy/>
-            <sequence>91</sequence>
-            <action>pass</action>
-            <quick>1</quick>
-            <interfacenot>0</interfacenot>
-            <interface>wan</interface>
-            <direction>in</direction>
-            <ipprotocol>inet</ipprotocol>
-            <protocol>TCP/UDP</protocol>
-            <icmptype/>
-            <icmp6type/>
-            <source_net>any</source_net>
-            <source_not>0</source_not>
-            <source_port/>
-            <destination_net>syncthing</destination_net>
-            <destination_not>0</destination_not>
-            <destination_port>50413</destination_port>
-            <divert-to/>
-            <gateway/>
-            <replyto/>
-            <disablereplyto>0</disablereplyto>
-            <log>0</log>
-            <allowopts>0</allowopts>
-            <nosync>0</nosync>
-            <nopfsync>0</nopfsync>
-            <statetimeout/>
-            <udp-first/>
-            <udp-multiple/>
-            <udp-single/>
-            <max-src-nodes/>
-            <max-src-states/>
-            <max-src-conn/>
-            <max/>
-            <max-src-conn-rate/>
-            <max-src-conn-rates/>
-            <overload/>
-            <adaptivestart/>
-            <adaptiveend/>
-            <prio/>
-            <set-prio/>
-            <set-prio-low/>
-            <tag/>
-            <tagged/>
-            <tcpflags1/>
-            <tcpflags2/>
-            <tcpflags_any>0</tcpflags_any>
-            <categories/>
-            <sched/>
-            <tos/>
-            <shaper1/>
-            <shaper2/>
-            <description/>
           </rule>
           <rule uuid="34bc5b39-ac91-4b8e-bd64-1a0980ba6b8e">
             <enabled>0</enabled>
