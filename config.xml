@@ -882,7 +882,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <filter>
     <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
       <type>pass</type>
-      <interface>lan,opt3,opt4</interface>
+      <interface>lan,opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <direction>any</direction>
@@ -898,8 +898,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <port>30013</port>
       </destination>
       <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739690552.4462</time>
+        <username>alexg@192.168.4.7</username>
+        <time>1775011819.85</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1389,8 +1389,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/firewall/filter/upload_rules made changes</description>
-    <time>1775011669.76</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1775011819.91</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
