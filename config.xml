@@ -1336,8 +1336,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1775010325.49</time>
+    <description>/api/dnsmasq/settings/add_option/ made changes</description>
+    <time>1775010350.96</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2457,7 +2457,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1775010325.49" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1775010350.96" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2813,6 +2813,17 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <tag/>
       <set_tag>d6bf0e07-23fe-4f24-a007-01011a1b59eb</set_tag>
       <value>0</value>
+      <force/>
+      <description/>
+    </dhcp_options>
+    <dhcp_options uuid="978f1556-20df-407d-9f9d-18344f569b8f">
+      <type>match</type>
+      <option>93</option>
+      <option6/>
+      <interface/>
+      <tag/>
+      <set_tag>da9f5e65-4d5b-4243-82fd-babfc6ea9f92</set_tag>
+      <value>7</value>
       <force/>
       <description/>
     </dhcp_options>
