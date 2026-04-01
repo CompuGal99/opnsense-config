@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/firewall/filter/del_rule/cdf95fd7-c2d7-45ce-85e2-4060d41341ec made changes</description>
-    <time>1775012088.22</time>
+    <description>/api/firewall/filter/set_rule/4afcd541-9e71-4ee3-98ed-fa4550aecc91 made changes</description>
+    <time>1775012119.10</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1178,7 +1178,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1775012088.22" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1775012119.10" description="Firewall rules (new)">
         <rules>
           <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
             <enabled>1</enabled>
@@ -1626,7 +1626,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description>Syncthing</description>
+            <description>Syncthing Inbound Rule</description>
           </rule>
           <rule uuid="66d6f63a-c5bd-4c2a-b5bf-6ace371860fb">
             <enabled>0</enabled>
