@@ -283,7 +283,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-git-backup,os-isc-dhcp,os-nut,os-theme-cicada</plugins>
+      <plugins>os-git-backup,os-nut,os-theme-cicada</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -891,9 +891,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.7</username>
-    <description>/api/firewall/filter/set_rule/34bc5b39-ac91-4b8e-bd64-1a0980ba6b8e made changes</description>
-    <time>1775012201.84</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1775014011.67</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
