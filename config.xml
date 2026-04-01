@@ -1336,8 +1336,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1775010721.60</time>
+    <description>/api/dnsmasq/settings/set_boot/ce98612e-d0d9-4e95-897a-2ef272d9c5e2 made changes</description>
+    <time>1775010809.19</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2457,7 +2457,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1775010721.60" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1775010809.19" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2828,7 +2828,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <description>EFI Boot Match Rule</description>
     </dhcp_options>
     <dhcp_boot uuid="ce98612e-d0d9-4e95-897a-2ef272d9c5e2">
-      <interface>lan</interface>
+      <interface/>
       <tag>d6bf0e07-23fe-4f24-a007-01011a1b59eb</tag>
       <filename>netboot.xyz.kpxe</filename>
       <servername>192.168.1.3</servername>
