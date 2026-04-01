@@ -1337,7 +1337,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.7</username>
     <description>/api/dnsmasq/settings/add_tag/ made changes</description>
-    <time>1775010242.33</time>
+    <time>1775010253.25</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2457,7 +2457,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1775010242.33" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1775010253.25" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2721,6 +2721,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     </hosts>
     <dhcp_tags uuid="d6bf0e07-23fe-4f24-a007-01011a1b59eb">
       <tag>IsBIOS</tag>
+    </dhcp_tags>
+    <dhcp_tags uuid="da9f5e65-4d5b-4243-82fd-babfc6ea9f92">
+      <tag>IsEFI</tag>
     </dhcp_tags>
     <dhcp_ranges uuid="7b8c3c6a-3919-4c39-b555-0fb8ce15cdd8">
       <interface>opt2</interface>
