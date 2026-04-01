@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/firewall/filter/set_rule/bbbe9514-857b-40d6-be60-0ce83231d9d0 made changes</description>
-    <time>1775012017.59</time>
+    <description>/api/firewall/filter/set_rule/55407afc-295c-4331-bba9-37d7b71542ef made changes</description>
+    <time>1775012062.01</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1178,7 +1178,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1775012017.59" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1775012062.01" description="Firewall rules (new)">
         <rules>
           <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
             <enabled>1</enabled>
@@ -1514,7 +1514,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description/>
+            <description>plexstats from DMZ</description>
           </rule>
           <rule uuid="cdf95fd7-c2d7-45ce-85e2-4060d41341ec">
             <enabled>0</enabled>
