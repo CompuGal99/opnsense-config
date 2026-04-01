@@ -288,7 +288,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-git-backup,os-nut,os-theme-cicada</plugins>
+      <plugins>os-git-backup,os-isc-dhcp,os-nut,os-theme-cicada</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -1335,9 +1335,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1775010819.18</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1775011159.84</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
