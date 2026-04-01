@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/firewall/filter/del_rule/66d6f63a-c5bd-4c2a-b5bf-6ace371860fb made changes</description>
-    <time>1775012177.59</time>
+    <description>/api/firewall/filter/set_rule/34bc5b39-ac91-4b8e-bd64-1a0980ba6b8e made changes</description>
+    <time>1775012201.84</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1178,7 +1178,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1775012177.59" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1775012201.84" description="Firewall rules (new)">
         <rules>
           <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
             <enabled>1</enabled>
@@ -1682,7 +1682,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description/>
+            <description>Nintendo Switch Improved Connectivity</description>
           </rule>
           <rule uuid="c56a6e9a-4c76-40d5-947c-314a9eb10974">
             <enabled>1</enabled>
