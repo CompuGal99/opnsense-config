@@ -1337,7 +1337,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.7</username>
     <description>/api/dnsmasq/settings/add_boot/ made changes</description>
-    <time>1775010644.14</time>
+    <time>1775010702.97</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2457,7 +2457,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1775010644.14" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1775010702.97" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2834,6 +2834,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <servername>192.168.1.3</servername>
       <address>192.168.1.3</address>
       <description>BIOS Netboot KPXE</description>
+    </dhcp_boot>
+    <dhcp_boot uuid="d68c830e-5721-4f85-b291-4190264a9a45">
+      <interface/>
+      <tag/>
+      <filename>netboot.xyz-snp.efi</filename>
+      <servername>192.168.1.3</servername>
+      <address>192.168.1.3</address>
+      <description>EFI Netboot EFI serve file</description>
     </dhcp_boot>
   </dnsmasq>
 </opnsense>
