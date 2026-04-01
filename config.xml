@@ -1336,8 +1336,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1775010256.00</time>
+    <description>/api/dnsmasq/settings/add_option/ made changes</description>
+    <time>1775010323.67</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2457,7 +2457,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1775010256.00" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1775010323.67" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2805,5 +2805,16 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <ra_router_lifetime/>
       <description>Wireless Network - CompuWifi99</description>
     </dhcp_ranges>
+    <dhcp_options uuid="e2d3aab3-56d4-4162-91a4-efce0d3e573a">
+      <type>match</type>
+      <option>93</option>
+      <option6/>
+      <interface/>
+      <tag/>
+      <set_tag>d6bf0e07-23fe-4f24-a007-01011a1b59eb</set_tag>
+      <value>0</value>
+      <force/>
+      <description/>
+    </dhcp_options>
   </dnsmasq>
 </opnsense>
