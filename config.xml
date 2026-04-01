@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/firewall/filter/set_rule/33a4824e-2432-4145-9e0d-9050011fa22c made changes</description>
-    <time>1775011967.08</time>
+    <description>/api/firewall/filter/set_rule/ee3d7a5a-acda-49e1-a71a-a6a4956f1278 made changes</description>
+    <time>1775011992.51</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1178,7 +1178,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1775011967.08" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1775011992.51" description="Firewall rules (new)">
         <rules>
           <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
             <enabled>1</enabled>
@@ -1346,7 +1346,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description/>
+            <description>plexwi.compuguy.dev from PublicProxy</description>
           </rule>
           <rule uuid="dcad8622-5fdc-4b40-af68-530be57289d0">
             <enabled>1</enabled>
