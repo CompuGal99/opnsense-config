@@ -938,7 +938,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     </rule>
     <rule uuid="ee3d7a5a-acda-49e1-a71a-a6a4956f1278">
       <type>pass</type>
-      <interface>lan,opt3,opt4</interface>
+      <interface>lan,opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <direction>any</direction>
@@ -954,8 +954,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <port>32400</port>
       </destination>
       <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739760689.9654</time>
+        <username>alexg@192.168.4.7</username>
+        <time>1775011826.82</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1390,7 +1390,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.7</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1775011819.91</time>
+    <time>1775011826.88</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
