@@ -258,11 +258,6 @@
     </webgui>
     <usevirtualterminal>1</usevirtualterminal>
     <disableconsolemenu>1</disableconsolemenu>
-    <disablevlanhwfilter>1</disablevlanhwfilter>
-    <disablechecksumoffloading>1</disablechecksumoffloading>
-    <disablesegmentationoffloading>1</disablesegmentationoffloading>
-    <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
-    <ipv6allow>1</ipv6allow>
     <powerd_ac_mode>hadp</powerd_ac_mode>
     <powerd_battery_mode>hadp</powerd_battery_mode>
     <powerd_normal_mode>hadp</powerd_normal_mode>
@@ -643,187 +638,245 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         </created>
       </rule>
     </outbound>
-    <rule>
-      <protocol>tcp/udp</protocol>
+    <rule uuid="4e552f38-15aa-4d45-9807-d20405ea1161">
+      <sequence>100</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Syncthing</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_66cba796ae55c6.13152258</associated-rule-id>
-      <target>syncthing</target>
-      <local-port>22000</local-port>
+      <protocol>tcp/udp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>22000</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>alexg@192.168.4.39</username>
-        <time>1757645585.57</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>syncthing</target>
+      <local-port>22000</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>Syncthing</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.1.101</username>
         <time>1724622742.7141</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>alexg@192.168.4.39</username>
+        <time>1757645585.57</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp/udp</protocol>
+    <rule uuid="48ed56ba-75c1-433e-9ad1-69ec962b2e5a">
+      <sequence>200</sequence>
+      <disabled>1</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_66cbb22004f3b6.97325333</associated-rule-id>
-      <target>syncthing</target>
-      <local-port>50413</local-port>
+      <protocol>tcp/udp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>50413</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1726880572.3771</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>syncthing</target>
+      <local-port>50413</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.1.101</username>
         <time>1724625440.0203</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1726880572.3771</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
+    <rule uuid="3538d0dc-1474-416a-91a9-ec0fe64ba58b">
+      <sequence>300</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Plex Internet Connection</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
-      <target>syncthing</target>
-      <local-port>32400</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>9645</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1750898202.869</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>syncthing</target>
+      <local-port>32400</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>Plex Internet Connection</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>alexg@192.168.1.101</username>
         <time>1731981812.0756</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1750898202.869</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>udp</protocol>
+    <rule uuid="90c48c33-006a-4859-89b3-f364437cc2ff">
+      <sequence>400</sequence>
+      <disabled>1</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
+      <protocol>udp</protocol>
+      <source>
+        <network/>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network>nswitch</network>
+        <port>45000-65535</port>
+        <not>0</not>
+      </destination>
+      <target>nswitch</target>
+      <local-port>45000</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
       <descr/>
       <tag/>
       <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_6771b7097cdbe5.82578008</associated-rule-id>
-      <disabled>1</disabled>
-      <target>nswitch</target>
-      <local-port>45000</local-port>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>nswitch</address>
-        <port>45000-65535</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1735505673.5115</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>alexg@192.168.1.101</username>
         <time>1735505673.5115</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1735505673.5115</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
+    <rule uuid="32b887f8-29d4-4011-95bd-b8f8e8d0b4f7">
+      <sequence>500</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Inbound HTTP to DMZ</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_67b0f1c96a8bc4.84850855</associated-rule-id>
-      <target>proxy</target>
-      <local-port>80</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>80</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1750898240.9111</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>proxy</target>
+      <local-port>80</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>Inbound HTTP to DMZ</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>alexg@192.168.1.101</username>
         <time>1739649481.4365</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1750898240.9111</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
+    <rule uuid="c610d3e5-d7f9-4476-a183-d4214d9fc145">
+      <sequence>600</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Inbound HTTPS Only to DMZ</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
-      <target>proxy</target>
-      <local-port>443</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>443</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1750898263.2987</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>proxy</target>
+      <local-port>443</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>Inbound HTTPS Only to DMZ</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>alexg@192.168.1.101</username>
         <time>1739649505.8845</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1750898263.2987</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
   </nat>
   <filter>
@@ -1335,9 +1388,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1775011159.84</time>
+    <username>alexg@192.168.4.7</username>
+    <description>/api/firewall/filter/upload_rules made changes</description>
+    <time>1775011669.76</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1622,8 +1675,961 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4">
-        <rules/>
+      <Filter version="1.0.4" persisted_at="1775011669.76" description="Firewall rules (new)">
+        <rules>
+          <rule uuid="33a4824e-2432-4145-9e0d-9050011fa22c">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>11</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>lan,opt4</interface>
+            <direction>any</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP/UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>proxy</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>authentik</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>443</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description/>
+          </rule>
+          <rule uuid="bbbe9514-857b-40d6-be60-0ce83231d9d0">
+            <enabled>0</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>41</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>lan,opt4</interface>
+            <direction>any</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>proxy</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>compunas</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>11000</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description/>
+          </rule>
+          <rule uuid="55407afc-295c-4331-bba9-37d7b71542ef">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>51</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>lan,opt4</interface>
+            <direction>any</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP/UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>proxy</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>compunas</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>30047</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description/>
+          </rule>
+          <rule uuid="cdf95fd7-c2d7-45ce-85e2-4060d41341ec">
+            <enabled>0</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>61</sequence>
+            <action>block</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan,opt1</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>any</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>192.168.4.42/32</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port/>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description/>
+          </rule>
+          <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>71</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>any</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>syncthing</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>32400</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Plex Internet Connection</description>
+          </rule>
+          <rule uuid="4afcd541-9e71-4ee3-98ed-fa4550aecc91">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>81</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP/UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>any</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>syncthing</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>22000</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Syncthing</description>
+          </rule>
+          <rule uuid="66d6f63a-c5bd-4c2a-b5bf-6ace371860fb">
+            <enabled>0</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>91</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP/UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>any</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>syncthing</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>50413</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description/>
+          </rule>
+          <rule uuid="34bc5b39-ac91-4b8e-bd64-1a0980ba6b8e">
+            <enabled>0</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>101</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>any</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>nswitch</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>45000-65535</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description/>
+          </rule>
+          <rule uuid="c56a6e9a-4c76-40d5-947c-314a9eb10974">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>111</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>any</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>proxy</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>80</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Inbound HTTP to DMZ</description>
+          </rule>
+          <rule uuid="dd1a8622-c59a-4a9e-8779-a87478f0785a">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>121</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>any</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>proxy</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>443</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Inbound HTTPS Only to DMZ</description>
+          </rule>
+          <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
+            <enabled>1</enabled>
+            <statetype>sloppy</statetype>
+            <state-policy/>
+            <sequence>131</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>lan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>any</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>lan</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port/>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Default allow LAN to any rule</description>
+          </rule>
+          <rule uuid="5a658e67-1ba7-4e1b-bb88-878d740f5df0">
+            <enabled>1</enabled>
+            <statetype>sloppy</statetype>
+            <state-policy/>
+            <sequence>141</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>lan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet6</ipprotocol>
+            <protocol>any</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>lan</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port/>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Default allow LAN IPv6 to any rule</description>
+          </rule>
+          <rule uuid="506a48ef-d0f0-4fc4-b3d2-dd177e8c0586">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>151</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>opt1</interface>
+            <direction>in</direction>
+            <ipprotocol>inet6</ipprotocol>
+            <protocol>any</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>opt1</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port/>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Default allow Wifi IPv6 to any rule</description>
+          </rule>
+          <rule uuid="371ac510-71ed-41d8-a819-05d6028cb435">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>161</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>opt1</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>any</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>opt1</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port/>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Default allow Wifi to any rule</description>
+          </rule>
+          <rule uuid="b49eef26-9a21-48ef-b6ef-32a2bdcd3fcd">
+            <enabled>1</enabled>
+            <statetype>sloppy</statetype>
+            <state-policy/>
+            <sequence>171</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>opt2</interface>
+            <direction>in</direction>
+            <ipprotocol>inet6</ipprotocol>
+            <protocol>any</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>opt2</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port/>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Default allow LAN IPv6 to any rule</description>
+          </rule>
+          <rule uuid="428d031d-d26a-4539-a7af-204ab59019dd">
+            <enabled>1</enabled>
+            <statetype>sloppy</statetype>
+            <state-policy/>
+            <sequence>181</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>opt2</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>any</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>opt2</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port/>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Default allow LAN to any rule</description>
+          </rule>
+          <rule uuid="df7488b1-befd-4d97-b61b-e1259ccc4181">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>191</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>opt4</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>any</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>opt4</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>internal_space</destination_net>
+            <destination_not>1</destination_not>
+            <destination_port/>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Allow DMZ to Any non-reserved IP</description>
+          </rule>
+        </rules>
         <snatrules/>
         <npt/>
         <onetoone/>
@@ -1642,7 +2648,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.1" persisted_at="1762408005.30">
+    <IDS version="1.1.2" persisted_at="1775011448.63" description="Intrusion detection">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -1650,7 +2656,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <fileTags/>
       <general>
         <enabled>0</enabled>
-        <ips>0</ips>
+        <mode>pcap</mode>
+        <divert_listeners>1</divert_listeners>
         <promisc>0</promisc>
         <interfaces>wan</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
@@ -1687,6 +2694,17 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <loopbacks version="1.0.0"/>
       <neighbors version="1.0.0"/>
       <vxlans version="1.0.2"/>
+      <settings version="1.0.0" persisted_at="1775011449.20" description="Global interface settings">
+        <disablechecksumoffloading>1</disablechecksumoffloading>
+        <disablesegmentationoffloading>1</disablesegmentationoffloading>
+        <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
+        <disablevlanhwfilter>1</disablevlanhwfilter>
+        <disableipv6>0</disableipv6>
+        <dhcp6_norelease>0</dhcp6_norelease>
+        <dhcp6_debug>0</dhcp6_debug>
+        <dhcp6_duid/>
+        <dhcp6_ratimeout>10</dhcp6_ratimeout>
+      </settings>
     </Interfaces>
     <Kea>
       <ctrl_agent version="0.0.1">
@@ -2290,6 +3308,33 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <interface/>
       </general>
     </Hostwatch>
+    <radvd version="1.0.0" persisted_at="1775011449.44" description="Radvd configuration">
+      <entries uuid="09243de7-e468-47b4-ad41-d9383f8cded5">
+        <enabled>0</enabled>
+        <interface>opt1</interface>
+        <Base6Interface/>
+        <mode>stateless</mode>
+        <DeprecatePrefix/>
+        <RemoveAdvOnExit/>
+        <RemoveRoute/>
+        <routes/>
+        <RDNSS/>
+        <DNSSL/>
+        <dns>1</dns>
+        <MinRtrAdvInterval>200</MinRtrAdvInterval>
+        <MaxRtrAdvInterval>600</MaxRtrAdvInterval>
+        <AdvDNSSLLifetime/>
+        <AdvDefaultLifetime/>
+        <AdvLinkMTU/>
+        <AdvPreferredLifetime/>
+        <AdvRASrcAddress/>
+        <AdvRDNSSLifetime/>
+        <AdvRouteLifetime/>
+        <AdvValidLifetime/>
+        <AdvDefaultPreference>medium</AdvDefaultPreference>
+        <nat64prefix/>
+      </entries>
+    </radvd>
   </OPNsense>
   <hasync version="1.0.2">
     <disablepreempt>0</disablepreempt>
@@ -2365,13 +3410,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <numberoptions>
         <item/>
       </numberoptions>
-      <ramode>disabled</ramode>
-      <rapriority>medium</rapriority>
-      <ramininterval>200</ramininterval>
-      <ramaxinterval>600</ramaxinterval>
-      <radomainsearchlist/>
-      <radnsserver/>
-      <rasamednsasdhcp6>1</rasamednsasdhcp6>
     </opt1>
   </dhcpdv6>
   <cert uuid="426481d2-a17f-4f1a-a177-32dfb830ad5b">
