@@ -1336,8 +1336,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.7</username>
-    <description>/api/dnsmasq/settings/set_option/e2d3aab3-56d4-4162-91a4-efce0d3e573a made changes</description>
-    <time>1775010365.92</time>
+    <description>/api/dnsmasq/settings/set_option/978f1556-20df-407d-9f9d-18344f569b8f made changes</description>
+    <time>1775010376.46</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2457,7 +2457,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1775010365.92" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1775010376.46" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2825,7 +2825,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <set_tag>da9f5e65-4d5b-4243-82fd-babfc6ea9f92</set_tag>
       <value>7</value>
       <force/>
-      <description/>
+      <description>EFI Boot Match Rule</description>
     </dhcp_options>
   </dnsmasq>
 </opnsense>
