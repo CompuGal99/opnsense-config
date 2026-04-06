@@ -891,9 +891,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1775014011.67</time>
+    <username>alexg@192.168.1.136</username>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1775444419.15</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2558,24 +2558,24 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.13" persisted_at="1774761622.71" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1775444419.15" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
         <stats>1</stats>
-        <active_interface>opt2,lan,opt3,opt4,opt1</active_interface>
+        <active_interface>opt2,lan,opt4,opt1</active_interface>
         <dnssec>0</dnssec>
         <dns64>0</dns64>
         <dns64prefix/>
         <noarecords>0</noarecords>
         <regdhcp>1</regdhcp>
         <regdhcpdomain/>
-        <regdhcpstatic>1</regdhcpstatic>
+        <regdhcpstatic>0</regdhcpstatic>
         <noreglladdr6>0</noreglladdr6>
         <noregrecords>0</noregrecords>
         <txtsupport>0</txtsupport>
         <cacheflush>1</cacheflush>
-        <safesearch/>
+        <safesearch>0</safesearch>
         <local_zone_type>transparent</local_zone_type>
         <outgoing_interface/>
         <enable_wpad>0</enable_wpad>
