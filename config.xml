@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.136</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1776025254.06</time>
+    <description>/api/dnsmasq/settings/set_host/932447c8-88e7-4bce-b204-e59267a8c9ba made changes</description>
+    <time>1776025265.76</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -3047,7 +3047,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1776025254.06" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776025265.76" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -3132,7 +3132,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="932447c8-88e7-4bce-b204-e59267a8c9ba">
       <host>publicproxy</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.7.2</ip>
       <cnames/>
       <client_id/>
