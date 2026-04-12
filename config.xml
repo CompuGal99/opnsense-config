@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.136</username>
-    <description>/api/dnsmasq/settings/del_host/ba98603d-5fc8-41be-9674-4bf3c7f98795 made changes</description>
-    <time>1776025415.73</time>
+    <description>/api/dnsmasq/settings/del_host/19ad3d9e-d4a8-453f-9dac-554caee820af made changes</description>
+    <time>1776025415.75</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -3047,7 +3047,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1776025415.73" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776025415.75" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -3084,21 +3084,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
-    <hosts uuid="19ad3d9e-d4a8-453f-9dac-554caee820af">
-      <host>media</host>
-      <domain/>
-      <local>1</local>
-      <ip>192.168.1.10</ip>
-      <cnames/>
-      <client_id/>
-      <hwaddr>e8:ea:6a:b1:d4:ec</hwaddr>
-      <lease_time/>
-      <ignore>0</ignore>
-      <set_tag/>
-      <descr/>
-      <comments/>
-      <aliases/>
-    </hosts>
     <hosts uuid="bd068872-1836-4c51-a18c-dd3c23977a02">
       <host>compuenvy99</host>
       <domain/>
