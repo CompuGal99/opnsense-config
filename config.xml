@@ -893,7 +893,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.1.136</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1776023967.72</time>
+    <time>1776024002.42</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2558,7 +2558,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.13" persisted_at="1776023967.72" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1776024002.42" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2581,24 +2581,24 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <enable_wpad>0</enable_wpad>
       </general>
       <advanced>
-        <hideidentity/>
-        <hideversion/>
-        <prefetch/>
-        <prefetchkey/>
-        <dnssecstripped/>
+        <hideidentity>0</hideidentity>
+        <hideversion>0</hideversion>
+        <prefetch>0</prefetch>
+        <prefetchkey>0</prefetchkey>
+        <dnssecstripped>0</dnssecstripped>
         <aggressivensec>1</aggressivensec>
-        <serveexpired/>
+        <serveexpired>0</serveexpired>
         <serveexpiredreplyttl/>
         <serveexpiredttl/>
-        <serveexpiredttlreset/>
+        <serveexpiredttlreset>0</serveexpiredttlreset>
         <serveexpiredclienttimeout/>
-        <qnameminstrict/>
-        <extendedstatistics/>
-        <logqueries/>
-        <logreplies/>
-        <logtagqueryreply/>
-        <logservfail/>
-        <loglocalactions/>
+        <qnameminstrict>0</qnameminstrict>
+        <extendedstatistics>0</extendedstatistics>
+        <logqueries>1</logqueries>
+        <logreplies>1</logreplies>
+        <logtagqueryreply>0</logtagqueryreply>
+        <logservfail>0</logservfail>
+        <loglocalactions>0</loglocalactions>
         <logverbosity>1</logverbosity>
         <valloglevel>0</valloglevel>
         <privatedomain/>
@@ -2616,7 +2616,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <cachemaxnegativettl/>
         <cacheminttl/>
         <infrahostttl/>
-        <infrakeepprobing/>
+        <infrakeepprobing>0</infrakeepprobing>
         <infracachenumhosts/>
         <unwantedreplythreshold/>
       </advanced>
