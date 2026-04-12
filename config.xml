@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.136</username>
-    <description>/api/dnsmasq/settings/del_host/a74bbcb2-1864-48e8-bc9b-bf6ef05b28b1 made changes</description>
-    <time>1776025415.80</time>
+    <description>/api/dnsmasq/settings/upload_hosts made changes</description>
+    <time>1776025422.16</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -3047,7 +3047,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1776025415.80" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776025422.16" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -3084,6 +3084,231 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
+    <hosts uuid="c59e009a-dd42-4fe4-a0df-cf047217f30b">
+      <host>eero</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.4.2</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>64:c2:69:b9:34:cd</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="85e06622-5978-41b2-ba86-6f76fbe484bd">
+      <host>CompuLaptop99</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.4.7</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>ce:a1:e3:3d:17:d7</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="d9f847cb-9bcb-473b-9232-b9e13ecb0014">
+      <host>nswitch</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.4.8</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>20:0b:cf:96:34:1f</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="30d59162-2431-4bcc-bc29-b90603ea4d2f">
+      <host>publicproxy</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.7.2</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:cf:e7:88</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="c69c533d-f301-4da9-a6e8-324c373fc2dc">
+      <host>auth</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.2</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:f4:43:36</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="6dee49c9-9780-4104-8ff9-defbf247529d">
+      <host>compunas</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.3</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>00:25:90:fa:ed:c8</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="599a4cda-7226-4dc0-819a-f3a3fd9bad72">
+      <host>proxy</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.4</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:7e:73:b3</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="7893bbd6-d898-4f96-86da-5bdfc27074c0">
+      <host>proxmox</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.5</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>ec:8e:b5:77:05:c0</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="72f73732-5102-4b02-a430-80c9b27a1b2d">
+      <host>foundry</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.6</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:49:c6:00</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="41dd8195-4726-4a1c-a7c0-6ab4969e9a79">
+      <host>calibre</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.7</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:4d:92:36</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="03a4607b-9506-4ea9-b0b9-8c4311ca6a4f">
+      <host>gluetun</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.8</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:2f:b0:bd</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="61853d97-2d15-483b-a04a-4d30c8c44597">
+      <host>newfound</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.9</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:60:d2:65</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="4f4c77d3-c2a3-4c70-9939-433ac92ee681">
+      <host>media</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.10</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>e8:ea:6a:b1:d4:ec</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="882f586a-f0b7-47b5-bbe4-a60bfc3082f1">
+      <host>compuenvy99</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.1.23</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>a0:ce:c8:f1:be:16</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="192d3fb7-fbdc-4da9-bafc-89a027c524d8">
+      <host>nut</host>
+      <domain>int.compuguy.dev</domain>
+      <local>1</local>
+      <ip>192.168.254.2</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>b8:27:eb:d7:2b:1f</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
     <dhcp_tags uuid="d6bf0e07-23fe-4f24-a007-01011a1b59eb">
       <tag>IsBIOS</tag>
     </dhcp_tags>
