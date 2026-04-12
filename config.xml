@@ -893,7 +893,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.1.136</username>
     <description>/api/nut/settings/set made changes</description>
-    <time>1776026696.83</time>
+    <time>1776026804.73</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2780,7 +2780,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         </alias>
       </aliases>
     </unboundplus>
-    <Nut version="1.0.4" persisted_at="1776026696.83" description="Network UPS Tools">
+    <Nut version="1.0.4" persisted_at="1776026804.73" description="Network UPS Tools">
       <general>
         <enable>1</enable>
         <mode>netclient</mode>
@@ -2821,7 +2821,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <address>192.168.254.2</address>
         <port>3493</port>
         <user>admin</user>
-        <password>secret</password>
+        <password/>
       </netclient>
       <qx>
         <enable>0</enable>
