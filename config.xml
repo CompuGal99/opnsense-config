@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.136</username>
-    <description>/api/dnsmasq/settings/del_host/524eefef-07b7-4671-a626-a74fde7e0e3c made changes</description>
-    <time>1776025415.68</time>
+    <description>/api/dnsmasq/settings/del_host/69c3a2a5-4503-48dc-b71e-ea2e16d2ec16 made changes</description>
+    <time>1776025415.70</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -3047,7 +3047,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1776025415.68" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776025415.70" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -3084,21 +3084,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
-    <hosts uuid="69c3a2a5-4503-48dc-b71e-ea2e16d2ec16">
-      <host>gluetun</host>
-      <domain/>
-      <local>1</local>
-      <ip>192.168.1.8</ip>
-      <cnames/>
-      <client_id/>
-      <hwaddr>bc:24:11:2f:b0:bd</hwaddr>
-      <lease_time/>
-      <ignore>0</ignore>
-      <set_tag/>
-      <descr/>
-      <comments/>
-      <aliases/>
-    </hosts>
     <hosts uuid="ba98603d-5fc8-41be-9674-4bf3c7f98795">
       <host>newfound</host>
       <domain/>
