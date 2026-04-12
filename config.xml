@@ -893,7 +893,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.1.136</username>
     <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1776024371.94</time>
+    <time>1776024558.07</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -3047,7 +3047,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1776024371.94" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776024558.07" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -3056,7 +3056,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <domain_needed>0</domain_needed>
     <no_private_reverse>0</no_private_reverse>
     <no_resolv>1</no_resolv>
-    <log_queries>0</log_queries>
+    <log_queries>1</log_queries>
     <no_hosts>0</no_hosts>
     <strictbind>0</strictbind>
     <dnssec>0</dnssec>
