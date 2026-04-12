@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.136</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1776024999.47</time>
+    <description>/api/dnsmasq/settings/del_domain/5906264b-6e51-46d3-9d28-338f2f2f6b45 made changes</description>
+    <time>1776025070.99</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -3047,7 +3047,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1776024999.47" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776025070.99" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -3309,15 +3309,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <comments/>
       <aliases/>
     </hosts>
-    <domainoverrides uuid="5906264b-6e51-46d3-9d28-338f2f2f6b45">
-      <sequence>1</sequence>
-      <domain>google.com</domain>
-      <ipset/>
-      <srcip/>
-      <port>53</port>
-      <ip>8.8.8.8</ip>
-      <descr/>
-    </domainoverrides>
     <dhcp_tags uuid="d6bf0e07-23fe-4f24-a007-01011a1b59eb">
       <tag>IsBIOS</tag>
     </dhcp_tags>
