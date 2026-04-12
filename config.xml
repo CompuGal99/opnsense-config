@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.136</username>
-    <description>/api/dnsmasq/settings/set_host/932447c8-88e7-4bce-b204-e59267a8c9ba made changes</description>
-    <time>1776025265.76</time>
+    <description>/api/dnsmasq/settings/upload_hosts made changes</description>
+    <time>1776025310.38</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -3047,7 +3047,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.8" persisted_at="1776025265.76" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776025310.38" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -3147,7 +3147,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="a3c6a98e-67d6-4300-a17c-b69e8281ac70">
       <host>auth</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.2</ip>
       <cnames/>
       <client_id/>
@@ -3162,7 +3162,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="86c7ab8e-d948-4ac6-91b9-d673d08b76f4">
       <host>compunas</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.3</ip>
       <cnames/>
       <client_id/>
@@ -3177,7 +3177,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="b91dba31-053f-4659-aaa3-4b4f4539cd4b">
       <host>proxy</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.4</ip>
       <cnames/>
       <client_id/>
@@ -3192,7 +3192,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="0804ca76-37b8-4df7-abdd-252eb133a202">
       <host>proxmox</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.5</ip>
       <cnames/>
       <client_id/>
@@ -3207,7 +3207,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="f5857eae-1505-429a-ae55-fdc0b1c86837">
       <host>foundry</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.6</ip>
       <cnames/>
       <client_id/>
@@ -3222,7 +3222,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="524eefef-07b7-4671-a626-a74fde7e0e3c">
       <host>calibre</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.7</ip>
       <cnames/>
       <client_id/>
@@ -3237,7 +3237,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="69c3a2a5-4503-48dc-b71e-ea2e16d2ec16">
       <host>gluetun</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.8</ip>
       <cnames/>
       <client_id/>
@@ -3252,7 +3252,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="ba98603d-5fc8-41be-9674-4bf3c7f98795">
       <host>newfound</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.9</ip>
       <cnames/>
       <client_id/>
@@ -3267,7 +3267,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="19ad3d9e-d4a8-453f-9dac-554caee820af">
       <host>media</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.10</ip>
       <cnames/>
       <client_id/>
@@ -3282,7 +3282,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="bd068872-1836-4c51-a18c-dd3c23977a02">
       <host>compuenvy99</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.1.23</ip>
       <cnames/>
       <client_id/>
@@ -3297,7 +3297,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <hosts uuid="a74bbcb2-1864-48e8-bc9b-bf6ef05b28b1">
       <host>nut</host>
       <domain/>
-      <local>0</local>
+      <local>1</local>
       <ip>192.168.254.2</ip>
       <cnames/>
       <client_id/>
