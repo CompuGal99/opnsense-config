@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.136</username>
-    <description>/api/firewall/filter/set_rule/b49eef26-9a21-48ef-b6ef-32a2bdcd3fcd made changes</description>
-    <time>1776040047.26</time>
+    <description>/api/firewall/filter/set_rule/428d031d-d26a-4539-a7af-204ab59019dd made changes</description>
+    <time>1776040066.81</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1178,7 +1178,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1776040047.26" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1776040066.81" description="Firewall rules (new)">
         <rules>
           <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
             <enabled>1</enabled>
@@ -2130,7 +2130,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description>Default allow LAN to any rule</description>
+            <description>Default allow IPMI to any rule</description>
           </rule>
           <rule uuid="df7488b1-befd-4d97-b61b-e1259ccc4181">
             <enabled>1</enabled>
