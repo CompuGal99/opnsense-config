@@ -892,8 +892,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.136</username>
-    <description>/api/nut/settings/set made changes</description>
-    <time>1776027109.99</time>
+    <description>/api/firewall/filter/set_rule/b49eef26-9a21-48ef-b6ef-32a2bdcd3fcd made changes</description>
+    <time>1776040047.26</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1178,7 +1178,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1775012201.84" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1776040047.26" description="Firewall rules (new)">
         <rules>
           <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
             <enabled>1</enabled>
@@ -2074,7 +2074,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description>Default allow LAN IPv6 to any rule</description>
+            <description>Default allow IPMI IPv6 to any rule</description>
           </rule>
           <rule uuid="428d031d-d26a-4539-a7af-204ab59019dd">
             <enabled>1</enabled>
